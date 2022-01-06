@@ -1,0 +1,39 @@
+.review{
+    margin-bottom: var(--section-spacing);
+    &-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display:flex;
+        justify-content: space-between;
+        gap: 0 208px;
+    }
+    &-image{
+        max-width: 523px;
+        width: 100%;
+    }
+    &-content{
+        padding: 41px 0 63px;
+    }
+    .global-heading{
+        max-width: 343px;
+        margin-bottom: 25px;
+    }
+     .global-caption{
+        margin-bottom: 11px;
+     }
+     .global-text{
+         margin-bottom: 19px;
+         max-width: 399px;
+     }
+     &-count{
+         display: flex;
+         align-items: center;
+         gap: 0 10px;
+         margin-bottom: 38px;
+     }
+     &-title{
+         color: $primary-color;
+         font-size: 25px;
+         font-weight: 600;
+     }
+}
